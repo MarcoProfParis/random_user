@@ -1,22 +1,22 @@
 [{
   "kind": "column",
-  "name": "Get Latitud & Longitud",
-  "description": "Get the Latitud and Longitud of an address",
-  "author": "Santiago Perez",
+  "name": "Get Random Users",
+  "description": "Get Random users",
+  "author": "Marc Olivier Reula",
   "params": [
     {
-      "name": "code",
-      "displayName": "code de recherche",
+      "name": "results",
+      "displayName": "number of results",
       "type": "number"
     },
     {
-      "name": "url",
-      "displayName": "webhook",
+      "name": "nat",
+      "displayName": "Nationality",
       "type": "string"
     },
     {
-      "name": "recherche",
-      "displayName": "recherche",
+      "name": "inc",
+      "displayName": "Fields to show",
       "type": "string"
     }
   ],
